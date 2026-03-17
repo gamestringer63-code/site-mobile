@@ -46,7 +46,7 @@ header .list > ul li a, .list .list > ul li a {
 }
 header .list > ul li a:hover, .list .list > ul li a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  color: rgba(0, 0, 255, 0.295);
 }
 header .list > ul li a i, .list .list > ul li a i {
   font-size: 1.4rem;
