@@ -50,6 +50,9 @@ header .list > ul li a:hover, .list .list > ul li a:hover {
 header .list > ul li a i, .list .list > ul li a i {
   font-size: 1.4rem;
 }
+header, .list {
+  z-index: 10;
+}
 
 .section {
   display: grid;
