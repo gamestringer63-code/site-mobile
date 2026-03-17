@@ -1,0 +1,100 @@
+@use "sass:map";
+
+//======= icons =======
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
+
+//======= FONTES ========
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Quicksand:wght@300..700&display=swap');
+
+//======= VARIAVEIS =======
+$font_glob: "Belanosima", sans-serif; //fonte de todo o html
+$size_font: 1.2rem; //tamanho da fonte padrão
+
+//======= LAYOUT =======
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//======= FONTE GLOBAL =======
+html {
+    font-family: $font_glob;
+    font-size: $size_font;
+}
+
+body {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    @media (max-width: 767px) {
+        background-color: aqua;
+    }
+}
+
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+
+    .logo {
+    max-width: 100px;
+    display: none;
+    }
+    
+    .list {
+        display: block;
+        //position: fixed;
+        //left: 0%;
+        //background-color: brown;
+        //width: 100%;
+        //height: 100vh;
+        //place-items: center;
+        //transition: 0.3s;
+
+    }
+
+    .list > ul {
+        display: grid;
+        list-style: none;
+        height: 70%;
+        text-align: center;
+
+        li {
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-size: 2rem;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.home {
+    background-color: aqua;
+}
+.information {
+    background-color: rgb(0, 255, 0);
+}
+.cursos {
+    background-color: rgb(255, 238, 0);
+}
+.inscrition {
+    background-color: rgb(255, 0, 0);
+}
+.contato {
+    background-color: rgb(255, 0, 242);
+}
