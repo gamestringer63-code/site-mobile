@@ -24,6 +24,12 @@ header, .list {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.473);
   width: 100%;
+  box-shadow: 2px 2px 5px black;
+}
+header .list, .list .list {
+  width: 96%;
+  border-radius: 100px;
+  margin-top: 10px;
 }
 header .list > ul, .list .list > ul {
   display: flex;
