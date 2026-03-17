@@ -17,15 +17,11 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-@media (max-width: 767px) {
-  body {
-    background-color: aqua;
-  }
-}
 
 header, .list {
   display: flex;
   position: fixed;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.473);
   width: 100%;
 }
@@ -45,6 +41,9 @@ header .list > ul li a, .list .list > ul li a {
 header .list > ul li a:hover, .list .list > ul li a:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+header .list > ul li a i, .list .list > ul li a i {
+  font-size: 1.4rem;
 }
 
 .section {
