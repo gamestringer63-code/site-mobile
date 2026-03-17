@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Belanosima", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -22,7 +22,7 @@ header, .list {
   display: flex;
   position: fixed;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.473);
+  background-color: rgba(0, 0, 0, 0.144);
   width: 100%;
   box-shadow: 2px 2px 5px rgb(114, 101, 101);
 }
@@ -62,31 +62,77 @@ header, .list {
 
 .home {
   background-color: aqua;
-}
-.home div:first-child {
   position: relative;
+}
+.home .title {
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 85vh;
   background-image: url(https://www.bluechip-saudi.com/wp-content/uploads/2025/06/work-from-anywhere.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -400px;
+  z-index: 0;
 }
-.home div:first-child::after {
+.home .title::after {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, rgba(8, 66, 2, 0.233) 20%, rgba(16, 8, 61, 0.795) 80%);
+  z-index: 1;
 }
-.home div:first-child::before {
+.home .title::before {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
   background: linear-gradient(-45deg, rgba(78, 7, 72, 0.253) 20%, rgba(94, 9, 9, 0.795) 80%);
+  z-index: 2;
+}
+.home .text {
+  display: grid;
+  justify-content: right;
+  color: white;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  width: 60%;
+  margin-right: 20px;
+}
+.home .text h1 {
+  color: rgb(255, 208, 1);
+  text-align: right;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+.home .text p {
+  text-align: right;
+}
+.home .text form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.home .text a {
+  width: 130px;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+}
+.home .text .cadastro {
+  border: 1px solid white;
+  color: white;
+}
+.home .text .curso {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
 }
 .home div:last-child {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 15vh;
   background-color: rgb(173, 173, 173);
