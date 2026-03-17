@@ -33,33 +33,21 @@ body {
     }
 }
 
-header {
+header, .list {
     display: flex;
     position: fixed;
-    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 100%;
 
-    .logo {
-    max-width: 100px;
-    display: none;
-    }
-    
-    .list {
-        display: block;
-        //position: fixed;
-        //left: 0%;
-        //background-color: brown;
-        //width: 100%;
-        //height: 100vh;
-        //place-items: center;
-        //transition: 0.3s;
 
-    }
 
     .list > ul {
-        display: grid;
+        display: flex;
         list-style: none;
-        height: 70%;
+        width: 100%;
         text-align: center;
+        justify-content: space-around;
+        padding: 10px;
 
         li {
 

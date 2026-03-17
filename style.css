@@ -23,30 +23,26 @@ body {
   }
 }
 
-header {
+header, .list {
   display: flex;
   position: fixed;
-  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.473);
+  width: 100%;
 }
-header .logo {
-  max-width: 100px;
-  display: none;
-}
-header .list {
-  display: block;
-}
-header .list > ul {
-  display: grid;
+header .list > ul, .list .list > ul {
+  display: flex;
   list-style: none;
-  height: 70%;
+  width: 100%;
   text-align: center;
+  justify-content: space-around;
+  padding: 10px;
 }
-header .list > ul li a {
+header .list > ul li a, .list .list > ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 2rem;
 }
-header .list > ul li a:hover {
+header .list > ul li a:hover, .list .list > ul li a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
