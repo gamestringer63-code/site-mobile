@@ -143,20 +143,22 @@ header, .list {
   background-color: rgb(182, 180, 180);
 }
 .home div:last-child .beneficio {
+  position: relative;
   width: 100%;
 }
 .home div:last-child .list-beneficio {
+  position: relative;
   display: flex;
-  width: 100%;
-  justify-content: space-around;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .home div:last-child .list-beneficio li {
   display: grid;
   place-items: center;
   list-style: none;
-  margin: 0 20px;
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   padding: 5px;
   border-radius: 5px 30px;
   background: linear-gradient(white, grey);
@@ -172,7 +174,10 @@ header, .list {
 .home div:last-child .list-beneficio li aside i {
   font-size: 1.8rem;
   color: rgb(196, 13, 13);
-  margin-bottom: 2px;
+  margin-bottom: 1.5px;
+}
+.home div:last-child .list-beneficio li aside span {
+  font-size: 0.7rem;
 }
 
 .information {
