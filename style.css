@@ -117,7 +117,7 @@ header, .list {
   margin-top: 20px;
 }
 .home .text a {
-  width: 170px;
+  width: 140px;
   border-radius: 20px;
   padding: 6px;
   text-align: center;
@@ -162,7 +162,7 @@ header, .list {
   padding: 5px;
   border-radius: 5px 30px;
   background: linear-gradient(white, grey);
-  color: rgb(15, 15, 15);
+  color: rgb(0, 0, 0);
   box-shadow: 2px 5px black;
 }
 .home div:last-child .list-beneficio li aside {
@@ -173,7 +173,7 @@ header, .list {
 }
 .home div:last-child .list-beneficio li aside i {
   font-size: 1.8rem;
-  color: rgb(196, 13, 13);
+  color: rgb(10, 167, 167);
   margin-bottom: 1.5px;
 }
 .home div:last-child .list-beneficio li aside span {
