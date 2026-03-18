@@ -61,6 +61,7 @@ header, .list {
 }
 
 .home {
+  display: block;
   background-color: rgb(255, 230, 0);
   position: relative;
 }
@@ -179,6 +180,31 @@ header, .list {
 }
 .home div:last-child .list-beneficio li aside span {
   font-size: 0.7rem;
+}
+
+.information {
+  overflow: hidden;
+  position: relative;
+}
+.information::after {
+  position: absolute;
+  top: 0;
+  transform: translateY(-53%);
+  content: "";
+  width: 100vw;
+  height: 100vw;
+  background-color: rgb(182, 180, 180);
+  border-radius: 100%;
+}
+.information::before {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(53%);
+  content: "";
+  width: 100vw;
+  height: 100vw;
+  background-color: rgb(255, 238, 0);
+  border-radius: 100%;
 }
 
 .cursos {

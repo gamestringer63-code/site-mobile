@@ -80,6 +80,7 @@ header, .list {
 }
 
 .home {
+    display: block;
     background-color: rgb(255, 230, 0);
     position: relative;
 
@@ -222,8 +223,31 @@ header, .list {
 
 
 .information {
-    ::after {
 
+    $size-circle: 100vw;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: 0;
+        transform: translateY(-53%);
+        content: "";
+        width: $size-circle;
+        height: $size-circle;
+        background-color: rgb(182, 180, 180);
+        border-radius: 100%
+    };
+
+    &::before {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(53%);
+        content: "";
+        width: $size-circle;
+        height: $size-circle;
+        background-color: rgb(255, 238, 0);
+        border-radius: 100%
     };
 }
 .cursos {
