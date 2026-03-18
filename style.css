@@ -98,6 +98,7 @@ header, .list {
   color: white;
   position: absolute;
   right: 0;
+  margin-bottom: 25%;
   z-index: 2;
   width: 75%;
   margin-right: 30px;
@@ -178,10 +179,6 @@ header, .list {
 }
 .home div:last-child .list-beneficio li aside span {
   font-size: 0.7rem;
-}
-
-.information {
-  background-color: rgb(0, 255, 0);
 }
 
 .cursos {

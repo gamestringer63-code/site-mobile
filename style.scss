@@ -121,6 +121,7 @@ header, .list {
         color: white;
         position: absolute;
         right: 0;
+        margin-bottom: 25%;
         z-index: 2;
         width: 75%;
         margin-right: 30px;
@@ -221,7 +222,9 @@ header, .list {
 
 
 .information {
-    background-color: rgb(0, 255, 0);
+    ::after {
+
+    };
 }
 .cursos {
     background-color: rgb(255, 238, 0);
