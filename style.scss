@@ -80,7 +80,7 @@ header, .list {
 }
 
 .home {
-    //display: block;
+    display: none;
     background-color: rgb(255, 230, 0);
     position: relative;
 
@@ -225,8 +225,10 @@ header, .list {
 .information {
 
     $size-circle: 100vw;
+    width: 100%;
     overflow: hidden;
     position: relative;
+    background-color: rgb(230, 230, 230);
 
     &::after {
         position: absolute;
@@ -257,6 +259,36 @@ header, .list {
         margin-top: 20px;
         width: 70%;
         z-index: 5;
+    }
+
+    .extra {
+        display: flex;
+        background-color: white;
+        width: 85%;
+        padding: 15px;
+        border-radius: 25px;
+
+        .extras {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .experiencia {
+            border-left: 1px solid grey;
+            padding-left: 20px;
+        }
+
+        .extras > img {
+            width: 45px;
+            margin-right: 5px;
+        }
+
+        .extras > span {
+            display: block;
+            text-align: left;
+        }
     }
 }
 .cursos {

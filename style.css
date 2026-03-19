@@ -61,6 +61,7 @@ header, .list {
 }
 
 .home {
+  display: none;
   background-color: rgb(255, 230, 0);
   position: relative;
 }
@@ -181,8 +182,10 @@ header, .list {
 }
 
 .information {
+  width: 100%;
   overflow: hidden;
   position: relative;
+  background-color: rgb(230, 230, 230);
 }
 .information::after {
   position: absolute;
@@ -211,6 +214,31 @@ header, .list {
   margin-top: 20px;
   width: 70%;
   z-index: 5;
+}
+.information .extra {
+  display: flex;
+  background-color: white;
+  width: 85%;
+  padding: 15px;
+  border-radius: 25px;
+}
+.information .extra .extras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.information .extra .experiencia {
+  border-left: 1px solid grey;
+  padding-left: 20px;
+}
+.information .extra .extras > img {
+  width: 45px;
+  margin-right: 5px;
+}
+.information .extra .extras > span {
+  display: block;
+  text-align: left;
 }
 
 .cursos {
