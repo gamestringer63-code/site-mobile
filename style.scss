@@ -264,9 +264,9 @@ header, .list {
     .extra {
         display: flex;
         background-color: white;
-        width: 85%;
-        padding: 15px;
-        border-radius: 25px;
+        width: 90%;
+        //padding: 15px;
+        border-radius: 15px;
 
         .extras {
             display: flex;
@@ -277,11 +277,11 @@ header, .list {
 
         .experiencia {
             border-left: 1px solid grey;
-            padding-left: 20px;
+            padding-left: 10px;
         }
 
         .extras > img {
-            width: 45px;
+            width: 35px;
             margin-right: 5px;
         }
 
@@ -292,7 +292,7 @@ header, .list {
             color: green;
 
             strong {
-                font-size: 1.2rem;
+                font-size: 1rem;
             }
         }
     }
