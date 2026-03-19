@@ -271,10 +271,16 @@ header, .list {
 
         .aulas-pratica {
             width: 90%;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             color: rgb(0, 0, 0);
+
+            .green {
+                color: rgb(1, 153, 8);
+            }
         }
 
         .externo {
@@ -284,12 +290,14 @@ header, .list {
             width: 90%;
             border-radius: 12px;
             margin-bottom: 15px;
+            box-shadow: 1px 2px 4px grey;
 
             .extras {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin: 10px;
+                
             }
 
             .experiencia {
@@ -316,6 +324,7 @@ header, .list {
 
         .testemunhos {
             width: 90%;
+            margin-top: 10px;
             display: flex;
             justify-content: space-between;
         }
@@ -326,6 +335,7 @@ header, .list {
             background-color: white;
             border-radius: 15px;
             padding: 5px 15px;
+            box-shadow: 1px 2px 4px grey;
 
             i {
                 font-size: .7rem;
