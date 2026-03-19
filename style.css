@@ -193,6 +193,7 @@ header, .list {
   height: 100vw;
   background-color: rgb(182, 180, 180);
   border-radius: 100%;
+  z-index: 0;
 }
 .information::before {
   position: absolute;
@@ -203,6 +204,13 @@ header, .list {
   height: 100vw;
   background-color: rgb(255, 238, 0);
   border-radius: 100%;
+}
+.information .img-top {
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+  width: 70%;
+  z-index: 5;
 }
 
 .cursos {
