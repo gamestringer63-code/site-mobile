@@ -217,6 +217,7 @@ header, .list {
 }
 .information .extra {
   display: flex;
+  justify-content: center;
   background-color: white;
   width: 90%;
   border-radius: 15px;
@@ -229,7 +230,7 @@ header, .list {
 }
 .information .extra .experiencia {
   border-left: 1px solid grey;
-  padding-left: 10px;
+  padding-left: 4%;
 }
 .information .extra .extras > img {
   width: 35px;
@@ -238,11 +239,11 @@ header, .list {
 .information .extra .extras > span {
   display: block;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: green;
 }
 .information .extra .extras > span strong {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .cursos {
