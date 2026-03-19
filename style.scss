@@ -288,6 +288,12 @@ header, .list {
         .extras > span {
             display: block;
             text-align: left;
+            font-size: .8rem;
+            color: green;
+
+            strong {
+                font-size: 1.2rem;
+            }
         }
     }
 }

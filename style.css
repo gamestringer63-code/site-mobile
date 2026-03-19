@@ -239,6 +239,11 @@ header, .list {
 .information .extra .extras > span {
   display: block;
   text-align: left;
+  font-size: 0.8rem;
+  color: green;
+}
+.information .extra .extras > span strong {
+  font-size: 1.2rem;
 }
 
 .cursos {
