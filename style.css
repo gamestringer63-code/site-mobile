@@ -61,7 +61,6 @@ header, .list {
 }
 
 .home {
-  display: block;
   background-color: rgb(255, 230, 0);
   position: relative;
 }
