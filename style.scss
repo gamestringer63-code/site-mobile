@@ -274,11 +274,12 @@ header, .list {
 
         .aulas-pratica {
             width: 90%;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-family: "Lexend", sans-serif;
             font-weight: 750;
             text-align: center;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
             color: rgb(0, 0, 0);
 
             .green {
@@ -292,7 +293,7 @@ header, .list {
             background-color: white;
             width: 90%;
             border-radius: 12px;
-            margin-bottom: 15px;
+            margin-bottom: 25px;
             box-shadow: 1px 2px 4px grey;
 
             .extras {
@@ -357,15 +358,15 @@ header, .list {
             place-items: center;
             position: absolute;
             bottom: 0;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             width: 100vw;
             padding: 10px;
 
             img {
                 position: absolute;
                 right: 20px;
-                width: 120px;
-                top: -25px;
+                width: 90px;
+                top: -10px;
                 filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.37));
             };
 
@@ -376,10 +377,12 @@ header, .list {
                     text-align: right;
                     width: 70%;
                     font-family: "Lexend", sans-serif;
+                    font-size: 1.5rem;
                 }
 
                 p {
-                    text-align: center
+                    text-align: center;
+                    font-size: .85rem
                 }
             };
         };
