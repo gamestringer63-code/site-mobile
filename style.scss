@@ -5,6 +5,7 @@
 
 //======= FONTES ========
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 //======= VARIAVEIS =======
 $font_glob: "Quicksand", sans-serif; //fonte de todo o html
@@ -253,7 +254,7 @@ header, .list {
         width: $size-circle;
         height: $size-circle;
         background-color: rgb(255, 238, 0);
-        border-radius: 100%
+        border-radius: 10%;
     };
 
     .img-top {
@@ -269,11 +270,13 @@ header, .list {
         place-items: center;
         width: 100vw;
 
+        
+
         .aulas-pratica {
             width: 90%;
-            font-size: 1.1rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: 600;
+            font-size: 1.5rem;
+            font-family: "Lexend", sans-serif;
+            font-weight: 750;
             text-align: center;
             margin-bottom: 20px;
             color: rgb(0, 0, 0);
@@ -327,6 +330,7 @@ header, .list {
             margin-top: 10px;
             display: flex;
             justify-content: space-between;
+            margin-bottom: 20px;
         }
 
         .testemunho {
@@ -348,9 +352,40 @@ header, .list {
             }
         }
 
+        #cadastre {
+            display: grid;
+            place-items: center;
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 50px;
+            width: 100vw;
+            padding: 10px;
+
+            img {
+                position: absolute;
+                right: 20px;
+                width: 120px;
+                top: -25px;
+            };
+
+            .box-cadastro {
+                width: 90%;
+
+                h1 {
+                    text-align: right;
+                    width: 70%;
+                    font-family: "Lexend", sans-serif;
+                }
+
+                p {
+                    text-align: center
+                }
+            };
+        };
+
         
-    }
-}
+    };
+};
 .cursos {
     background-color: rgb(255, 238, 0);
 }
